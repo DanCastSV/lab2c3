@@ -31,16 +31,13 @@
   </div>
 </nav>
 
-<h1>Hola</h1>
-<div id="app">
-<primero></primero>
-<dos></dos>
+
 
 </div>
+
     <div id="app">
         @yield('content')
     </div>
 
-    @vite('resources/js/app.js')
 </body>
 </html>
